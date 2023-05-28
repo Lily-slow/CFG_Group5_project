@@ -1,0 +1,45 @@
+                                  OrderedModel Results                                 
+=======================================================================================
+Dep. Variable:     yearly_compensation_encoded   Log-Likelihood:                -18646.
+Model:                            OrderedModel   AIC:                         3.735e+04
+Method:                     Maximum Likelihood   BIC:                         3.760e+04
+Date:                         Sun, 28 May 2023                                         
+Time:                                 22:09:43                                         
+No. Observations:                        19044                                         
+Df Residuals:                            19013                                         
+Df Model:                                   27                                         
+======================================================================================================================================================
+                                                                                         coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------------------------------------------------
+gender_female                                                                         -0.4265      0.047     -9.165      0.000      -0.518      -0.335
+gender_other                                                                          -0.2022      0.123     -1.637      0.102      -0.444       0.040
+continent_africa                                                                      -1.5611      0.094    -16.634      0.000      -1.745      -1.377
+continent_asia                                                                        -1.1707      0.039    -29.759      0.000      -1.248      -1.094
+continent_north america                                                                2.0887      0.047     44.900      0.000       1.998       2.180
+continent_oceania                                                                      1.6998      0.120     14.106      0.000       1.464       1.936
+continent_south america                                                               -1.4195      0.069    -20.486      0.000      -1.555      -1.284
+highest_education_encoded                                                              0.0935      0.012      7.552      0.000       0.069       0.118
+years_writing_code_encoded                                                             0.5159      0.012     41.921      0.000       0.492       0.540
+company_size_encoded                                                                   0.1613      0.012     13.085      0.000       0.137       0.185
+team_size_encoded                                                                      0.1349      0.009     15.330      0.000       0.118       0.152
+current_job_title_Data Administrator                                                  -0.3837      0.322     -1.191      0.234      -1.015       0.248
+current_job_title_Data Analyst                                                        -0.2757      0.073     -3.801      0.000      -0.418      -0.134
+current_job_title_Data Analyst (Business, Marketing, Financial, Quantitative, etc)    -0.2672      0.103     -2.585      0.010      -0.470      -0.065
+current_job_title_Data Architect                                                       0.3243      0.255      1.274      0.203      -0.175       0.823
+current_job_title_Data Engineer                                                        0.0150      0.087      0.173      0.862      -0.155       0.185
+current_job_title_Data Scientist                                                       0.3763      0.062      6.088      0.000       0.255       0.497
+current_job_title_Developer Advocate                                                  -0.2543      0.347     -0.733      0.463      -0.934       0.425
+current_job_title_Developer Relations/Advocacy                                        -0.0982      0.308     -0.319      0.750      -0.701       0.505
+current_job_title_Machine Learning Engineer                                            0.0160      0.078      0.205      0.837      -0.136       0.168
+current_job_title_Machine Learning/ MLops Engineer                                     0.2683      0.123      2.176      0.030       0.027       0.510
+current_job_title_Product Manager                                                      1.2215      0.155      7.896      0.000       0.918       1.525
+current_job_title_Product/Project Manager                                              0.8524      0.115      7.387      0.000       0.626       1.079
+current_job_title_Program/Project Manager                                              0.6594      0.101      6.560      0.000       0.462       0.856
+current_job_title_Software Engineer                                                   -0.2253      0.067     -3.365      0.001      -0.357      -0.094
+year_2022                                                                              0.2282      0.052      4.350      0.000       0.125       0.331
+year_2021                                                                              0.0766      0.037      2.042      0.041       0.003       0.150
+0/1                                                                                    2.1514      0.083     25.892      0.000       1.989       2.314
+1/2                                                                                    0.2369      0.016     14.619      0.000       0.205       0.269
+2/3                                                                                   -0.0387      0.022     -1.751      0.080      -0.082       0.005
+3/4                                                                                    0.0886      0.025      3.611      0.000       0.041       0.137
+======================================================================================================================================================
