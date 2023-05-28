@@ -31,6 +31,7 @@ We used Python for our data analysis, along with several prominent libraries:
 - `matplotlib`, `plotly`, and `seaborn`: For data visualization.
 - `scikit-learn`: For data preprocessing.
 - `statsmodels`: For the ordinal logistic regression model.
+- `pycountry`: a library that maps country names to the country code for retrieving data from the inflation API.
 
 We developed our scripts using Jupyter Notebook, which provides a robust and flexible environment for data analysis.
 
